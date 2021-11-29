@@ -9,7 +9,7 @@ export const Navbar = () =>{
 
         <Link to = "/about">about</Link>
         {/* <Link to = "/user">Dashbord</Link> */}
-        <Link to = "/contact">detalis</Link>
+        <Link to = "/TecketDetails">detalis</Link>
 
 
         </div>

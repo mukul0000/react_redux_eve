@@ -5,6 +5,7 @@ import { Navbar } from "./component/Navbar";
 import { User } from "./component/details";
 import { Details } from "./component/userDetails";
 import { Signup } from "./component/login";
+import { Ticket } from "./component/teckit";
 
 function App() {
 	return (
@@ -19,10 +20,11 @@ function App() {
 					<About></About>
 				</Route>
 
-				<Route path="/contact">
-					<h1>contact here : </h1>
+				<Route path="/TecketDetails">
+					<Ticket />
+					{/* <h1>contact here : </h1> */}
 				</Route>
-				<Route exact path="/user">
+				<Route exact path="/dashbord">
 					<User></User>
 				</Route>
 

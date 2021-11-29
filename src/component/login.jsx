@@ -5,7 +5,7 @@ import {Dasbord} from "./Dashbord"
 
 
 function Signup(){
-    const [user,setuser]  = useState([]);
+    const [user,setuser]  = useState("");
  const[num,setnum]= useState("");
  const[otp,setotp] = useState("");
  const[text,settext] = useState("");
@@ -49,7 +49,7 @@ function Signup(){
            settext("please enter valid details")
        }
    
-    
+       setuser("/dashbord");
     
  }
  
@@ -64,7 +64,6 @@ function Signup(){
            <h3 id ="text">Login/Signup</h3>
           
            <div id="fieldset">
-         <h6 id="legend">Enter Your Mobile Number</h6>
             <input id ="inp" placeholder = "mobile" type= "number" onChange = {(e) => setnum(e.target.value)}/>
 
            
@@ -81,10 +80,10 @@ function Signup(){
            
             
             
-            <div id= "worning">{text}</div>
+            <div style = {{color : "red"}}>{text}</div>
 
            
-            <Link to = "/user">
+            <Link to = {user}>
             <button id = "btn2" onClick = {HandelAddTodo}>Continue</button>
 
             </Link>

@@ -56,7 +56,7 @@ export const Details = () =>{
       <br/>
         <h1>Booking scuessfull</h1>
         <button>
-        <Link to = "/contact">more detalis</Link>
+        <Link to = "/TecketDetails">more detalis</Link>
         </button>
         </>
     )
