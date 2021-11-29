@@ -93,9 +93,7 @@ function Signup(){
          
          </div>}
         
-        <Router>
-        <Link to="/dashbord"><Dasbord></Dasbord></Link>
-        </Router>
+       
         
        </div>
        </>

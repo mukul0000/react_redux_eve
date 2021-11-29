@@ -14,7 +14,6 @@ function App() {
 			<Switch>
 				<Route exact path="/">
 					<Signup></Signup>
-					<h1>home page here</h1>
 				</Route>
 				<Route path="/about">
 					<About></About>
@@ -22,7 +21,6 @@ function App() {
 
 				<Route path="/contact">
 					<h1>contact here : </h1>
-					<p>banglour</p>
 				</Route>
 				<Route exact path="/user">
 					<User></User>
