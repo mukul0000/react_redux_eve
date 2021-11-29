@@ -1,5 +1,7 @@
 import React, {useState} from "react";
-import axios from 'axios'
+import axios from 'axios';
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import {Dasbord} from "./Dashbord"
 
 
 function Signup(){
@@ -90,8 +92,11 @@ function Signup(){
        </div>
          
          </div>}
-
-      
+        
+        <Router>
+        <Link to="/dashbord"><Dasbord></Dasbord></Link>
+        </Router>
+        
        </div>
        </>
    )
