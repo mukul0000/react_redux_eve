@@ -18,10 +18,10 @@ export const User = () => {
          <>
 
 
-         <h1>user page</h1>
+         <h1>Dashbord</h1>
 
            {user.map(e => <p>
-               <Link to = {`/user/${e.id}`}>Movbies: {e.id}</Link>
+               <Link to = {`/user/${e.id}`}>Movies: {e.id}</Link>
            
            </p>)}
 

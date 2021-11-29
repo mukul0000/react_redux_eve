@@ -83,7 +83,11 @@ function Signup(){
             
             <div id= "worning">{text}</div>
 
-            <button id = "btn2" onClick = {HandelAddTodo}>Continue </button>
+           
+            <Link to = "/user">
+            <button id = "btn2" onClick = {HandelAddTodo}>Continue</button>
+
+            </Link>
            </div>
 
           

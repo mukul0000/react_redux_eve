@@ -8,7 +8,7 @@ export const Navbar = () =>{
         <Link to = "/">Login</Link>
 
         <Link to = "/about">about</Link>
-        <Link to = "/user">Dashbord</Link>
+        {/* <Link to = "/user">Dashbord</Link> */}
         <Link to = "/contact">detalis</Link>
 
 
